@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="etsy">
+    <test name="search">
+        <parameter name="searchtext" value="java programming mug"> </parameter>
+        <parameter name="searchtext1" value="winter gloves"></parameter>
+        <parameter name="searchtext2" value="wooden spoon"></parameter>
+        <classes>
+            <class name="selenium.test.etsy.tests.EtsySearchTest">
+                <methods>
+                    <exclude name="validateSearch2"> </exclude>
+                </methods>
+            </class>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="First XML Suite">
+    <test name="Sentrifugo Test">
+        <classes>
+            <class name="selenium.test.sentrifugo.tests.DepartmentTest"> </class>
+            <class name="selenium.test.sentrifugo.tests.GenderTest"> </class>
+            <class name="selenium.test.sentrifugo.tests.LoginTest"> </class>
+        </classes>
+
+    </test>
+    <test name="JavaScript Test">
+        <classes>
+            <class name="selenium.JavaScriptExecutor.JSPractice"> </class>
+            <class name="selenium.JavaScriptExecutor.JSScroll"> </class>
+        </classes>
+    </test>
+</suite>
